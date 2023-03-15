@@ -1,0 +1,4 @@
+对于源码的修改如下：
+1、对 datasets.py 的img2label_paths函数做出修改：不止匹配images，也匹配images[a-zA-z0-9_]*
+2、wandb = None
+3、datasets.py 对于深度图不做hsv
